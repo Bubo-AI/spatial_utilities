@@ -12,6 +12,22 @@ Output has the following structure:
 | XX012XX    | 50.1234 |  0.789456 | XX           | XXXX        | XX00        | XX00        | XX00NE     | XX1234     |
 
 
+### British National Grid to Easting and Northing Converter
+
+> _Adapted to Python from the original Perl code by Ben Soares for EDINA national datacentre._
+
+**Sample Usage:**
+```bash
+> python bng2en.py NZ20NE SW
+425000, 505000
+```
+
+
+## Resources
+
+- https://digimap.edina.ac.uk/help/our-maps-and-data/bng/
+- https://getoutside.ordnancesurvey.co.uk/guides/beginners-guide-to-grid-references/
+
 ## License
 
 Required data to run scripts and notebooks are subject to the following licenses:
